@@ -2,134 +2,172 @@
 
 <android.support.constraint.ConstraintLayout
 
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#f1f1f1">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1">
 
     <android.support.v7.widget.CardView
 
-            android:layout_width="match_parent"
-            android:layout_height="0dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <android.support.constraint.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
 
-                    android:id="@+id/textView14"
-                    android:layout_width="209dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:background="#d6dedddd"
-                    android:text="00000000000000"
-                    app:layout_constraintEnd_toEndOf="@+id/textView11"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView3"/>
+                android:id="@+id/textView14"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:background="#d6dedddd"
+                android:text="www.twitter.com/Aghnamapp"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView3" />
 
             <TextView
 
-                    android:id="@+id/textView15"
-                    android:layout_width="209dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:background="#d6dedddd"
-                    android:text="www.instagram.com/Aghnam"
-                    app:layout_constraintEnd_toEndOf="@+id/textView11"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView2"/>
+                android:id="@+id/textView15"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:background="#d6dedddd"
+                android:text="عبدالرحمن مسعود أحمد معيض"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView2" />
 
             <TextView
 
-                    android:id="@+id/textView11"
-                    android:layout_width="195dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginEnd="32dp"
-                    android:layout_marginRight="32dp"
-                    android:background="#d6dedddd"
-                    android:text="A12333ZEER"
-                    app:layout_constraintEnd_toStartOf="@+id/textView4"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView4"/>
+                android:id="@+id/textView11"
+                android:layout_width="214dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:background="#d6dedddd"
+                android:text="SA17 8000 0375 6080 1027 6654"
+                app:layout_constraintEnd_toStartOf="@+id/textView4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
 
             <TextView
 
-                    android:text="الفيس بوك"
-                    android:layout_width="89dp"
-                    android:gravity="right"
-                    android:textColor="@color/colorPrimary"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView1"
-                    android:paddingBottom="5dp"
-                    android:layout_marginEnd="32dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    android:layout_marginRight="32dp" android:layout_marginTop="32dp"
-                    app:layout_constraintTop_toBottomOf="@+id/textView16"/>
+                android:id="@+id/textView1"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:text="الفيس بوك"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
             <TextView
 
-                    android:id="@+id/txtUser"
-                    android:layout_width="209dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="32dp"
-                    android:layout_marginLeft="32dp"
-                    android:background="#d6dedddd"
-                    android:text="www.facebook.com/AghnamApp"
-                    app:layout_constraintEnd_toEndOf="@+id/textView11"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/textView1"/>
+                android:id="@+id/txtUser"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:background="#d6dedddd"
+                android:text="www.facebook.com/Aghnamapp"
+                app:layout_constraintEnd_toEndOf="@+id/textView11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView1" />
 
             <TextView
 
-                    android:text="رقم الهاتف"
-                    android:layout_width="83dp"
-                    android:gravity="right"
-                    android:textColor="@color/colorPrimary"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView3"
-                    android:paddingBottom="5dp"
-                    app:layout_constraintEnd_toEndOf="@+id/textView1" android:layout_marginTop="32dp"
-                    app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+                android:id="@+id/textView3"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:text="التويتر"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="@+id/textView1"
+                app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
             <TextView
 
-                    android:text="حسابات أغنام"
-                    android:layout_width="153dp"
-                    android:layout_height="57dp"
-                    android:textColor="@color/colorPrimary"
-                    android:id="@+id/textView16" android:textSize="24sp"
-                    android:layout_marginTop="64dp"
-                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent" android:gravity="center"/>
+                android:id="@+id/textView16"
+                android:layout_width="153dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="64dp"
+                android:gravity="center"
+                android:text="حسابات أغنام"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <TextView
 
-                    android:text=" أنستغرام"
-                    android:layout_width="82dp"
-                    android:gravity="right"
-                    android:textColor="@color/colorPrimary"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView2"
-                    android:paddingBottom="5dp"
-                    app:layout_constraintEnd_toEndOf="@+id/textView1" android:layout_marginTop="24dp"
-                    app:layout_constraintTop_toBottomOf="@+id/textView3"/>
+                android:id="@+id/textView2"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:text="إسم الحساب"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="@+id/textView1"
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
             <TextView
 
-                    android:text="رقم الحساب البنكي"
-                    android:layout_width="119dp"
-                    android:gravity="right"
-                    android:textColor="@color/colorPrimary"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/textView4"
-                    android:paddingBottom="5dp"
-                    app:layout_constraintEnd_toEndOf="@+id/textView1" android:layout_marginTop="32dp"
-                    app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+                android:id="@+id/textView4"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:text="رقم حساب الراجحي"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="@+id/textView1"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <TextView
+                android:id="@+id/bankname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="56dp"
+                android:text="رقم آي بان حساب الراجحي"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="209dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:background="#d6dedddd"
+                android:text="375608010276654"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/bankname" />
 
         </android.support.constraint.ConstraintLayout>
 

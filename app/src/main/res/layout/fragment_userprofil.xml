@@ -41,37 +41,45 @@
             android:id="@+id/textView24"
             android:paddingBottom="5dp"
             android:layout_alignTop="@+id/txtUserInfoPaymentMethod" android:layout_alignEnd="@+id/textView22"/>
+
     <TextView
-            android:text=" عبر الحساب البنكي"
-            android:layout_width="234dp"
-            android:layout_height="34dp"
-            android:background="#d6dedddd"
-            android:id="@+id/txtUserInfoPaymentMethod" android:layout_alignParentBottom="true"
-            android:layout_marginBottom="218dp" android:layout_alignParentStart="true"
-            android:layout_marginStart="11dp"/>
+        android:id="@+id/txtUserInfoPaymentMethod"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="218dp"
+        android:background="#d6dedddd"
+        android:text=" عبر الحساب البنكي" />
+
     <TextView
-            android:text=""
-            android:layout_width="234dp"
-            android:layout_height="34dp"
-            android:background="#d6dedddd"
-            android:id="@+id/txtUserInfoPhone"
-            android:layout_alignStart="@+id/txtUserInfoPaymentMethod"
-            android:layout_alignTop="@+id/textView23"/>
+        android:id="@+id/txtUserInfoPhone"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/txtUserInfoPaymentMethod"
+        android:layout_alignTop="@+id/textView23"
+        android:background="#d6dedddd"
+        android:text="" />
+
     <TextView
-            android:text=""
-            android:layout_width="234dp"
-            android:layout_height="34dp"
-            android:background="#d6dedddd"
-            android:id="@+id/txtUserInfoAddress"
-            android:layout_centerVertical="true" android:layout_alignStart="@+id/txtUserInfoPaymentMethod"/>
+        android:id="@+id/txtUserInfoAddress"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/txtUserInfoPaymentMethod"
+        android:layout_centerVertical="true"
+        android:background="#d6dedddd"
+        android:text="يتم التأكد منه عبر الواتس اب" />
+
     <TextView
-            android:text=""
-            android:layout_width="233dp"
-            android:layout_height="34dp"
-            android:background="#d6dedddd"
-            android:id="@+id/txtUserInfoName"
-            android:layout_alignParentTop="true" android:layout_marginTop="168dp"
-            android:layout_alignStart="@+id/txtUserInfoPaymentMethod"/>
+        android:id="@+id/txtUserInfoName"
+        android:layout_width="210dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/txtUserInfoPaymentMethod"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="168dp"
+        android:background="#d6dedddd"
+        android:text="" />
     <TextView
             android:text="الحساب الشخصي"
             android:layout_width="0dp"

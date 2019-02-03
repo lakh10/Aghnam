@@ -34,6 +34,7 @@ public class PaymentDetailsFragment extends Fragment {
     private TextView txtCount, txtTotal;
     TextInputEditText edtAccount;
     private Button btnConfirm, btnUpload;
+
     Cart cart;
     public PaymentDetailsFragment() {
         // Required empty public constructor
@@ -64,6 +65,7 @@ public class PaymentDetailsFragment extends Fragment {
         edtAccount = (TextInputEditText)v.findViewById(com.nibrasco.aghnam.R.id.edtPaymentAccount);
         btnConfirm = (Button)v.findViewById(com.nibrasco.aghnam.R.id.btnPaymentConfirm);
         btnUpload = (Button)v.findViewById(R.id.btnUpload);
+
     }
     private void LoadContent(View v){
         LinkControls(v);
