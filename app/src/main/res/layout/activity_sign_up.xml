@@ -61,7 +61,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="رقم الهاتف"
-                        android:gravity="right"
+                    android:maxLines="1"
+                    android:maxLength="10"
+                    android:ellipsize="end"
+                    android:gravity="right"
                     android:inputType="number|phone"
                         style="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox"
                         android:id="@+id/edtSignUpPhone"/>
@@ -81,7 +84,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="كلمة السر"
-                        android:gravity="right"
+
+                    android:gravity="right"
                         android:inputType="textPassword" android:id="@+id/edtSignUpPwd"
                         style="@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox"/>
             </android.support.design.widget.TextInputLayout>
